@@ -4,11 +4,11 @@ A number of players compete in order to obtain the highest betweenness centralit
 
 
 The default settings are:
-T=7
-N= 20
-Number of AI players =2
-Number of human players = 2 (only in the human_interaction.py file)
-Impossible edges= None
+T=7,
+N= 20,
+Number of AI players =2,
+Number of human players = 2 (only in the human_interaction.py file),
+Impossible edges= None.
 
 For customized settings:
 T: In line 21, set rules.nb_max_step=T
