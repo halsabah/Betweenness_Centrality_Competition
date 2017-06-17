@@ -4,6 +4,7 @@ A number of players compete in order to obtain the highest betweenness centralit
 
 
 The default settings are:
+
 T=7;
 N= 20;
 Number of AI players =2;
@@ -14,6 +15,7 @@ Impossible edges= None.
 
 
 For customized settings:
+
 T: In line 21, set rules.nb_max_step=T;
 N: In line 22, set rules.nb_players=N;
 Number of AI players: Add/Remove players using a format similar to lines 33-35;
