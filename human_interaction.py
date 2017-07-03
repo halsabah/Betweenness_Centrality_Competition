@@ -30,11 +30,11 @@ if __name__ == '__main__':
     every player receives an id, add some impossible edges
     """
 
-    player1 = Player(rules=rules, type=EntityType.competitive_player, name="AI1", strategy_type=Strategy.greedy)
-    player2 = Player(rules=rules, type=EntityType.competitive_player, name="AI2", strategy_type=Strategy.greedy)
+    player1 = Player(rules=rules, type=EntityType.competitive_player, name="AI0", strategy_type=Strategy.greedy)
+    player2 = Player(rules=rules, type=EntityType.competitive_player, name="AI1", strategy_type=Strategy.greedy)
     # player3 = Player(rules=rules, type=EntityType.competitive_player, name="AI3", strategy_type=Strategy.greedy)
-    player4 = Player(rules=rules, type=EntityType.human, name="H1")
-    player5 = Player(rules=rules, type=EntityType.human, name="H2")
+    player4 = Player(rules=rules, type=EntityType.human, name="H2")
+    player5 = Player(rules=rules, type=EntityType.human, name="H3")
 
     player4.picture = "img/medici.jpg"
     player5.picture = "img/medici2.jpg"
