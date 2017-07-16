@@ -1,4 +1,4 @@
-# Betweeness_Centality_Competition
+# Betweenness_Centrality_Competition
 Description:
 A number of players compete in order to obtain the highest betweenness centrality in a network. There are N players in the game and the game lasts for T periods. The players are either active or passive. Active players have the ability to create or destroy edges while passive players do not. Moreover, active players are further classified as artificial intelligent(AI) or human. AI players are myopic in the sense that they try to maximize their instantaneous betweenness centrality without taking into account future steps. Human players make their choices based on input from users. Depending on the application, specific predefined edges can be prevented from being created.  At each period, players simultaneously choose an edge to be created or destroyed. The player with the highest betweenness centrality at the end of the game wins.
 
